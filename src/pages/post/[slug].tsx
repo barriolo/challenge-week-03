@@ -135,7 +135,6 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps = async ({ params }) => {
-  console.log(params);
   const { slug } = params;
 
   const prismic = getPrismicClient();
