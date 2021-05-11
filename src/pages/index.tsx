@@ -69,7 +69,7 @@ export default function Home({postsPagination}: HomeProps) {
             posts.map((post) => (
               <Link href={`/post/${post.uid}`} key={post.uid}>
                 <a>
-                  <h2>{ post.data.title }</h2>
+                  <h2>aa{ post.data.title }</h2>
                   <strong>
                     { post.data.subtitle }
                   </strong>
